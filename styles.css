@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #bdbdbd;
+    margin-bottom: 35px;
+}
+
+.speed-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(0,0,0,.35);
+}
+
+.speed-circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid #00c6ff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.speed-circle span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.speed-circle small {
+    margin-top: 5px;
+    color: #cfcfcf;
+    font-size: 18px;
+}
+
+#startButton {
+    margin-top: 35px;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 50px;
+    background: #00c6ff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#startButton:hover {
+    background: #0095c8;
+    transform: scale(1.05);
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.result-box {
+    flex: 1;
+    background: rgba(255,255,255,.06);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.result-box h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.result-box p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00c6ff;
+}
+
+#status {
+    margin-top: 35px;
+    color: #bdbdbd;
+    font-size: 18px;
+}
+
+@media(max-width:650px){
+
+    .results{
+        flex-direction: column;
+    }
+
+    .speed-circle{
+        width:180px;
+        height:180px;
+    }
+
+    .speed-circle span{
+        font-size:50px;
+    }
+
+}

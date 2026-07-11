@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedTest</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>📈 SpeedTest</h1>
+        <p class="subtitle">
+            Comprueba la velocidad de tu conexión a Internet 🎠
+        </p>
+
+        <section class="speed-card">
+
+            <div class="speed-circle">
+                <span id="speedValue">0</span>
+                <small>Mbps</small>
+            </div>
+
+            <button id="startButton">
+                Iniciar prueba
+            </button>
+
+            <div class="results">
+
+                <div class="result-box">
+                    <h3>⬇ Descarga</h3>
+                    <p id="download">-- Mbps</p>
+                </div>
+
+                <div class="result-box">
+                    <h3>⬆ Subida</h3>
+                    <p id="upload">-- Mbps</p>
+                </div>
+
+                <div class="result-box">
+                    <h3>📶 Ping</h3>
+                    <p id="ping">-- ms</p>
+                </div>
+
+            </div>
+
+            <p id="status">
+                Esperando para iniciar...
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
