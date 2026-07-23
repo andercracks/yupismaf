@@ -36,7 +36,7 @@ function startSpeedTest() {
         currentSpeed += Math.floor(Math.random() * 8) + 2;
 
         if (currentSpeed > 100) {
-            currentSpeed = 200;
+            currentSpeed = 100;
         }
 
         speedValue.textContent = currentSpeed;
