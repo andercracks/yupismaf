@@ -130,6 +130,69 @@ h1 {
     transform:translateY(0);
 
 }
+/* para mi index algo extra xd*/
+
+.guide{
+
+    margin-top:40px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+}
+
+.guide h2{
+
+    margin-bottom:15px;
+
+    font-size:28px;
+
+}
+
+.guide p{
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+    margin-bottom:25px;
+
+}
+
+.guide-button{
+
+    display:inline-block;
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.guide-button:hover{
+
+    transform:translateY(-3px);
+
+    background:#1d4ed8;
+
+}
 
 @media(max-width:650px){
 
