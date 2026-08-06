@@ -235,6 +235,218 @@ h1 {
     font-weight: bold;
 }
 
+/*pagina de recomendaciones*/
+
+.section{
+
+    margin-top:40px;
+
+}
+
+.section h2{
+
+    margin-bottom:20px;
+
+    text-align:center;
+
+    font-size:30px;
+
+}
+
+.info-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+.info-card{
+
+    background:rgba(255,255,255,.06);
+
+    border-radius:18px;
+
+    padding:25px;
+
+    transition:.3s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-5px);
+
+    background:rgba(255,255,255,.09);
+
+}
+
+.info-card h3{
+
+    margin-bottom:15px;
+
+    color:#00c6ff;
+
+}
+
+.info-card p{
+
+    line-height:1.7;
+
+    color:#d1d5db;
+
+}
+
+.speed-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+    background:rgba(255,255,255,.06);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.speed-table th{
+
+    background:#2563eb;
+
+    padding:18px;
+
+    font-size:18px;
+
+}
+
+.speed-table td{
+
+    padding:16px;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.speed-table tr:hover{
+
+    background:rgba(255,255,255,.05);
+
+}
+
+.tips{
+
+    list-style:none;
+
+    display:grid;
+
+    gap:15px;
+
+}
+
+.tips li{
+
+    background:rgba(255,255,255,.06);
+
+    padding:18px;
+
+    border-radius:14px;
+
+}
+
+.faq{
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+.faq h3{
+
+    color:#00c6ff;
+
+    margin-bottom:8px;
+
+}
+
+.faq p{
+
+    color:#d1d5db;
+
+    line-height:1.7;
+
+}
+
+.back-home{
+
+    text-align:center;
+
+    margin-top:45px;
+
+}
+
+.home-button{
+
+    display:inline-block;
+
+    padding:15px 30px;
+
+    background:#2563eb;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+footer{
+
+    margin-top:60px;
+
+    text-align:center;
+
+    color:#bdbdbd;
+
+}
+
+footer a{
+
+    color:#00c6ff;
+
+    text-decoration:none;
+
+}
+
+footer a:hover{
+
+    text-decoration:underline;
+
+}
+
+.home-button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+
+}
+
 @media(max-width:650px){
 
     .results{
@@ -258,6 +470,23 @@ h1 {
         font-size:24px;
     }
 
-}
+    .section h2{
+
+        font-size:24px;
+
+    }
+
+    .speed-table{
+
+        font-size:14px;
+
+    }
+
+    .speed-table th,
+    .speed-table td{
+
+        padding:12px;
+
+    }
 
 }
