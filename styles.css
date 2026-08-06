@@ -250,4 +250,14 @@ h1 {
         font-size:50px;
     }
 
+     .guide{
+        padding:20px;
+    }
+
+    .guide h2{
+        font-size:24px;
+    }
+
+}
+
 }
