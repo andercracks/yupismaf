@@ -133,19 +133,15 @@ h1 {
 /* para mi index algo extra xd*/
 
 .guide{
+    width: 550px;
+    margin: 40px auto;
+    padding: 30px;
 
-    margin-top:40px;
-
-    padding:30px;
-
-    border-radius:20px;
-
-    background:rgba(255,255,255,.08);
-
+    background: rgba(255,255,255,.08);
     border:1px solid rgba(255,255,255,.12);
 
+    border-radius:20px;
     text-align:center;
-
 }
 
 .guide h2{
@@ -224,23 +220,6 @@ h1 {
 
     font-size:15px;
 
-}
-
-.guideTitle{
-    width: 550px;
-    margin: 30px auto;
-    padding: 25px;
-
-    background: #2b3444;
-    border-radius: 15px;
-
-    text-align: center;
-}
-
-.guideTitle p{
-    margin: 20px 0;
-    line-height: 1.6;
-    color: #d5d5d5;
 }
 
 .guide-button{
