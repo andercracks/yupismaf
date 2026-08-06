@@ -20,24 +20,31 @@
         <!-- Future Ad -->
     </aside>
 
+    <div class="language-switch">
+        <select id="language">
+            <option value="en">🇺🇸 English</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
+    </div>
+    
     <div class="container">
 
-        <h1>📶 Internet Speed Guide</h1>
+        <h1 id="title">📶 Internet Speed Guide</h1>
 
-        <p class="subtitle">
+        <p class="subtitle" id="subtitle">
             Learn what your internet speed means and how to improve your connection.
         </p>
 
         <!-- What do the results mean? -->
         <section class="section">
 
-            <h2>📊 Understanding Your Results</h2>
+            <h2 id="resultsTitle">📊 Understanding Your Results</h2>
 
             <div class="info-grid">
 
                 <div class="info-card">
-                    <h3>🚀 Download Speed</h3>
-                    <p>
+                    <h3 id="downloadTitle">🚀 Download Speed</h3>
+                    <p id="downloadText">
                         Measures how quickly data is downloaded from the internet.
                         Higher download speeds provide smoother browsing,
                         streaming and file downloads.
@@ -45,8 +52,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>📤 Upload Speed</h3>
-                    <p>
+                    <h3 id="uploadTitle">📤 Upload Speed</h3>
+                    <p id="uploadText">
                         Upload speed determines how fast you send data online.
                         It is important for video calls, cloud backups
                         and live streaming.
@@ -54,8 +61,8 @@
                 </div>
 
                 <div class="info-card">
-                    <h3>⚡ Ping (Latency)</h3>
-                    <p>
+                    <h3 id="pingCardTitle">⚡ Ping (Latency)</h3>
+                    <p id="pingText">
                         Ping measures response time.
                         Lower latency provides a better experience
                         in gaming and video conferences.
@@ -69,42 +76,42 @@
         <!-- Recommended Speeds -->
         <section class="section">
 
-            <h2>💻 Recommended Internet Speed</h2>
+            <h2 id="recommendedTitle">💻 Recommended Internet Speed</h2>
 
             <table class="speed-table">
 
                 <tr>
-                    <th>Activity</th>
-                    <th>Recommended Speed</th>
+                    <th id="activityHeader">Activity</th>
+                    <th id="speedHeader">Recommended Speed</th>
                 </tr>
 
                 <tr>
-                    <td>Web Browsing</td>
+                    <td id="browseRow">Web Browsing</td>
                     <td>5 Mbps</td>
                 </tr>
 
                 <tr>
-                    <td>HD Streaming</td>
+                    <td id="streamRow">HD Streaming</td>
                     <td>15 Mbps</td>
                 </tr>
 
                 <tr>
-                    <td>4K Streaming</td>
+                    <td id="stream4kRow">4K Streaming</td>
                     <td>35 Mbps</td>
                 </tr>
 
                 <tr>
-                    <td>Video Calls</td>
+                    <td id="videoRow">Video Calls</td>
                     <td>10 Mbps</td>
                 </tr>
 
                 <tr>
-                    <td>Online Gaming</td>
+                    <td id="gamingRow">Online Gaming</td>
                     <td>25 Mbps</td>
                 </tr>
 
                 <tr>
-                    <td>Large Downloads</td>
+                    <td id="downloadRow">Large Downloads</td>
                     <td>100+ Mbps</td>
                 </tr>
 
@@ -115,37 +122,37 @@
         <!-- Quality -->
         <section class="section">
 
-            <h2>⭐ Speed Rating</h2>
+            <h2 id="ratingTitle">⭐ Speed Rating</h2>
 
             <div class="info-grid">
 
                 <div class="info-card">
-                    <h3>🟢 Excellent</h3>
-                    <p>
+                    <h3 id="excellentTitle">🟢 Excellent</h3>
+                    <p id="excellentText">
                         Perfect for gaming,
                         4K streaming and many connected devices.
                     </p>
                 </div>
 
                 <div class="info-card">
-                    <h3>🔵 Good</h3>
-                    <p>
+                    <h3 id="goodTitle">🔵 Good</h3>
+                    <p id="goodText">
                         Great for everyday browsing,
                         meetings and entertainment.
                     </p>
                 </div>
 
                 <div class="info-card">
-                    <h3>🟡 Average</h3>
-                    <p>
+                    <h3 id="averageTitle">🟡 Average</h3>
+                    <p id="averageText">
                         Suitable for basic use,
                         but heavy activities may be slower.
                     </p>
                 </div>
 
                 <div class="info-card">
-                    <h3>🔴 Slow</h3>
-                    <p>
+                    <h3 id="slowTitle">🔴 Slow</h3>
+                    <p id="slowText">
                         You may experience buffering,
                         lag and slow downloads.
                     </p>
@@ -158,16 +165,16 @@
         <!-- Tips -->
         <section class="section">
 
-            <h2>🛠 Tips to Improve Your Internet</h2>
+            <h2 id="tipsTitle">🛠 Tips to Improve Your Internet</h2>
 
             <ul class="tips">
 
-                <li>Restart your router regularly.</li>
-                <li>Place your router in an open location.</li>
-                <li>Use Ethernet for the best performance.</li>
-                <li>Use the 5 GHz Wi-Fi band when possible.</li>
-                <li>Avoid heavy downloads while gaming.</li>
-                <li>Keep your router firmware updated.</li>
+                <li id="tip1">Restart your router regularly.</li>
+                <li id="tip2">Place your router in an open location.</li>
+                <li id="tip3">Use Ethernet for the best performance.</li>
+                <li id="tip4">Use the 5 GHz Wi-Fi band when possible.</li>
+                <li id="tip5">Avoid heavy downloads while gaming.</li>
+                <li id="tip6">Keep your router firmware updated.</li>
 
             </ul>
 
@@ -176,21 +183,21 @@
         <!-- FAQ -->
         <section class="section">
 
-            <h2>❓ Frequently Asked Questions</h2>
+            <h2 id="faqTitle">❓ Frequently Asked Questions</h2>
 
             <div class="faq">
 
-                <h3>What is Mbps?</h3>
-                <p>Mbps stands for Megabits per second and measures internet speed.</p>
+                <h3 id="faq1Title">What is Mbps?</h3>
+                <p id="faq1Text">Mbps stands for Megabits per second and measures internet speed.</p>
 
-                <h3>What is Ping?</h3>
-                <p>Ping measures the response time between your device and a server.</p>
+                <h3 id="faq2Title">What is Ping?</h3>
+                <p id="faq2Text">Ping measures the response time between your device and a server.</p>
 
-                <h3>Why is my speed lower than my plan?</h3>
-                <p>Wi-Fi interference, network congestion and your device can affect results.</p>
+                <h3 id="faq3Title">Why is my speed lower than my plan?</h3>
+                <p id="faq3Text">Wi-Fi interference, network congestion and your device can affect results.</p>
 
-                <h3>How often should I test my speed?</h3>
-                <p>Testing once every few weeks helps monitor your connection.</p>
+                <h3 id="faq4Title">How often should I test my speed?</h3>
+                <p id="faq4Text">Testing once every few weeks helps monitor your connection.</p>
 
             </div>
 
@@ -198,7 +205,7 @@
 
         <div class="back-home">
 
-            <a href="index.html" class="home-button">
+            <a href="index.html" class="home-button" id="backButton">
                 ← Back to Speed Test
             </a>
 
