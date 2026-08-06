@@ -114,6 +114,23 @@ h1 {
     font-size: 18px;
 }
 
+/* el de recomendaciones*/
+
+.info-card{
+
+    opacity:0;
+    transform:translateY(30px);
+    transition:.6s;
+
+}
+
+.info-card.show{
+
+    opacity:1;
+    transform:translateY(0);
+
+}
+
 @media(max-width:650px){
 
     .results{
