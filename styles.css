@@ -565,13 +565,15 @@ footer a:hover{
 
     margin:30px auto;
 
-    padding:18px 30px;
+    padding:20px;
 
     display:flex;
 
-    justify-content:space-between;
+    flex-direction:column;
 
     align-items:center;
+
+    gap:18px;
 
     background:rgba(255,255,255,.06);
 
@@ -582,22 +584,23 @@ footer a:hover{
 }
 
 .logo{
-
-    font-size:26px;
-
+    font-size:34px;
     font-weight:bold;
-
     color:#00c6ff;
-
     text-decoration:none;
-
+    padding-bottom:10px;
+    border-bottom:1px solid rgba(255,255,255,.15);
 }
 
 .nav-links{
 
     display:flex;
 
-    gap:25px;
+    gap:30px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
 
 }
 
