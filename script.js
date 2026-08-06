@@ -19,9 +19,9 @@ function startSpeedTest() {
     testing = true;
 
     startButton.disabled = true;
-    startButton.textContent = "Probando...";
+    startButton.textContent = translations[language.value].testing;
 
-    status.textContent = "Realizando prueba de velocidad...";
+    status.textContent = translations[language.value].running;
 
     speedValue.textContent = "0";
 
@@ -57,13 +57,61 @@ function startSpeedTest() {
         upload.textContent = `${finalUpload} Mbps`;
         ping.textContent = `${finalPing} ms`;
 
-        status.textContent = "Prueba finalizada correctamente.";
+        status.textContent = translations[language.value].finished;
 
         startButton.disabled = false;
-        startButton.textContent = "Iniciar prueba";
+        startButton.textContent = translations[language.value].start;
 
         testing = false;
 
     }, 5000);
 
 }
+
+const language = document.getElementById("language");
+
+    const translations = {
+    
+        es:{
+    
+            title:"📈 SpeedTest",
+            subtitle:"Comprueba la velocidad de tu conexión a Internet 🎠",
+    
+            start:"Iniciar prueba",
+            testing:"Probando...",
+    
+            waiting:"Esperando para iniciar...",
+            running:"Realizando prueba de velocidad...",
+            finished:"Prueba finalizada correctamente."
+    
+        },
+    
+        en:{
+    
+            title:"📈 SpeedTest",
+            subtitle:"Check your internet connection speed 🚀",
+    
+            start:"Start Test",
+            testing:"Testing...",
+    
+            waiting:"Waiting to start...",
+            running:"Running speed test...",
+            finished:"Speed test completed."
+    
+        }
+    
+    };
+
+language.addEventListener("change", () => {
+
+    const lang = translations[language.value];
+
+    document.querySelector("h1").textContent = lang.title;
+
+    document.querySelector(".subtitle").textContent = lang.subtitle;
+
+    startButton.textContent = lang.start;
+
+    status.textContent = lang.waiting;
+
+});
