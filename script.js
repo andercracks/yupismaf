@@ -83,6 +83,12 @@ const language = document.getElementById("language");
             waiting:"Esperando para iniciar...",
             running:"Realizando prueba de velocidad...",
             finished:"Prueba finalizada correctamente."
+
+            guideTitle:"📘 Guía de velocidad de Internet",
+
+            guideText:"¿No sabes si tu velocidad de Internet es suficiente? Aprende qué significan la velocidad de descarga, subida y el ping, y descubre la conexión recomendada para juegos, streaming, videollamadas y navegación diaria.",
+        
+            guideButton:"Ver recomendaciones →"
     
         },
     
@@ -97,6 +103,12 @@ const language = document.getElementById("language");
             waiting:"Waiting to start...",
             running:"Running speed test...",
             finished:"Speed test completed."
+
+            guideTitle:"📘 Internet Speed Guide",
+
+            guideText:"Not sure if your internet speed is good enough? Learn what download speed, upload speed and ping mean, and discover the recommended connection for gaming, streaming, video calls and everyday browsing.",
+        
+            guideButton:"View Recommendations →"
     
         }
     
@@ -109,6 +121,12 @@ language.addEventListener("change", () => {
     document.querySelector("h1").textContent = lang.title;
 
     document.querySelector(".subtitle").textContent = lang.subtitle;
+
+    document.getElementById("guideTitle").textContent = lang.guideTitle;
+
+    document.getElementById("guideText").textContent = lang.guideText;
+    
+    document.getElementById("guideButton").textContent = lang.guideButton;
 
     startButton.textContent = lang.start;
 
