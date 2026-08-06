@@ -16,7 +16,11 @@ const translations = {
 
         guideText:"¿No sabes si tu velocidad de Internet es suficiente? Aprende qué significan la velocidad de descarga, subida y el ping, y descubre la conexión recomendada para juegos, streaming, videollamadas y navegación diaria.",
 
-        guideButton:"Ver recomendaciones →"
+        guideButton:"Ver recomendaciones →",
+
+        download:"⬇ Descarga",
+        upload:"⬆ Subida",
+        ping:"📶 Ping"
 
     },
 
@@ -36,7 +40,11 @@ const translations = {
 
         guideText:"Not sure if your internet speed is good enough? Learn what download speed, upload speed and ping mean, and discover the recommended connection for gaming, streaming, video calls and everyday browsing.",
 
-        guideButton:"View Recommendations →"
+        guideButton:"View Recommendations →",
+
+        download:"⬇ Download",
+        upload:"⬆ Upload",
+        ping:"📶 Ping"
 
     }
 
