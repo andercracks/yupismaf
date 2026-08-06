@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg,#111827,#1f2937);
-    color:white;
-    min-height:100vh;
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -506,6 +509,13 @@ footer a:hover{
 
     box-shadow:0 10px 30px rgba(0,0,0,.35);
 
+}
+
+.home-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
 }
 
 .page h1{
