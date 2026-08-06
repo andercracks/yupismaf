@@ -511,11 +511,10 @@ footer a:hover{
 
 }
 
-.home-page{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.page-body{
     min-height:100vh;
+    background: linear-gradient(135deg,#111827,#1f2937);
+    color:white;
 }
 
 .page h1{
