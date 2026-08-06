@@ -88,4 +88,8 @@ language.addEventListener("change", () => {
 
     status.textContent = lang.waiting;
 
+    document.getElementById("downloadTitle").textContent = lang.download;
+    document.getElementById("uploadTitle").textContent = lang.upload;
+    document.getElementById("pingTitle").textContent = lang.ping;
+
 });
